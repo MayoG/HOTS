@@ -9,5 +9,9 @@ module.exports = {
       maskIcon: 'img/icons/maskable.svg',
       msTileImage: 'img/icons/ios/144.png'
     }
-  }
+  },
+
+  transpileDependencies: [
+    'vuetify'
+  ]
 };
